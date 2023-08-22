@@ -4,7 +4,7 @@ class TwoSum
     @target = target
   end
 
-  #O(n2)
+  #O(n^2)
   # def two_sum(nums, target)
   #   nums.each_with_index do |num, index|
   #     nums.each_with_index do |num2, index2|
@@ -26,3 +26,5 @@ class TwoSum
     end
   end
 end
+
+# https://osgoodgunawan.medium.com/two-sum-problem-in-ruby-444e2dd99a7c
